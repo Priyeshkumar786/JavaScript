@@ -105,3 +105,10 @@ let b=parseInt(prompt("enter breadth"))
 
 
 console.log(l/b)
+
+
+let l=parseInt(prompt("enter length"))
+let b=parseInt(prompt("enter breadth"))
+
+
+console.log(l-b)
