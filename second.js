@@ -88,14 +88,33 @@
 // user input of 5 sub find avg and provide grade
 
 
-num1=parseInt(prompt("enter num1"))
-num2=parseInt(prompt("enter num2"))
-num3=parseInt(prompt("enter num1"))
-num4=parseInt(prompt("enter num2"))
-num5=parseInt(prompt("enter num1"))
+let num1 = parseInt(prompt("enter num1"))
+let num2 = parseInt(prompt("enter num2"))
+let num3 = parseInt(prompt("enter num3"))
+let num4 = parseInt(prompt("enter num4"))
+let num5 = parseInt(prompt("enter num5"))
 
-avg=console.log((num1+num2+num3+num4+num5)/500*100)
+let total= console.log("total num : ",num1+num2+num3+num4+num5)
 
-if (avg>=90){
+let avg=console.log("Total percentage : ",(num1+num2+num3+num4+num5)/500*100)
+
+
+
+
+if (avg>=90 ){
     console.log("Grade A")
+}
+
+else if(avg>70 ){
+    console.log("Grade B")
+}
+
+else if (avg>50){
+
+    console.log("Grade C")
+}
+
+else (avg<50) 
+{
+    console.log("Fail")
 }
