@@ -118,3 +118,4 @@ else {
 
 
 havre to enter input
+have to check the specification
