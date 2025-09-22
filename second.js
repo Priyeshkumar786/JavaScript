@@ -115,3 +115,6 @@ else if (avg>=50){
 else {
     "fail"
 }
+
+
+havre to enter input
