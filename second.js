@@ -86,3 +86,16 @@
 
 // ==================================HW=======================================
 // user input of 5 sub find avg and provide grade
+
+
+num1=parseInt(prompt("enter num1"))
+num2=parseInt(prompt("enter num2"))
+num3=parseInt(prompt("enter num1"))
+num4=parseInt(prompt("enter num2"))
+num5=parseInt(prompt("enter num1"))
+
+avg=console.log((num1+num2+num3+num4+num5)/500*100)
+
+if (avg>=90){
+    console.log("Grade A")
+}
