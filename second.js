@@ -99,22 +99,19 @@ let total= console.log("total num : ",num1+num2+num3+num4+num5)
 let avg=console.log("Total percentage : ",(num1+num2+num3+num4+num5)/500*100)
 
 
-
-
-if (avg>=90 ){
-    console.log("Grade A")
+if (avg>=90){
+    "Grade A"
 }
 
-else if(avg>70 ){
-    console.log("Grade B")
+else if(avg>=70 ){
+  "Grade B"
 }
 
-else if (avg>50){
+else if (avg>=50){
 
-    console.log("Grade C")
+   "Grade C"
 }
 
-else (avg<50) 
-{
-    console.log("Fail")
+else {
+    "fail"
 }
