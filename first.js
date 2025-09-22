@@ -94,21 +94,48 @@
 // console.log(user%2)
 
 
-let l=parseInt(prompt("enter length"))
-let b=parseInt(prompt("enter breadth"))
+// let l=parseInt(prompt("enter length"))
+// let b=parseInt(prompt("enter breadth"))
 
 
-console.log(l*b)
+// console.log(l*b)
 
-let l=parseInt(prompt("enter length"))
-let b=parseInt(prompt("enter breadth"))
-
-
-console.log(l/b)
+// let l=parseInt(prompt("enter length"))
+// let b=parseInt(prompt("enter breadth"))
 
 
-let l=parseInt(prompt("enter length"))
-let b=parseInt(prompt("enter breadth"))
+// console.log(l/b)
 
 
-console.log(l-b)
+// let l=parseInt(prompt("enter length"))
+// let b=parseInt(prompt("enter breadth"))
+
+
+// console.log(l-b)
+
+// ==================================if else family======================================== 
+// -> if,if then else,ladder if else,nested if else 
+
+// =======================syntax===============================
+
+// if(condition)
+// {
+
+
+// }
+
+// else{
+
+
+// }
+
+
+let num = parseInt(prompt("enter the num"))
+
+if num>0
+{
+console.log("+ve")}
+
+else{
+    console.log("-ve")
+}
