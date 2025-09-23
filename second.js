@@ -1,3 +1,9 @@
+-------------------------------------------------------------------------------------------------------------------------------------------- 
+// ==============================================program to check greater number ====================================================
+
+
+
+
 // let greatest1=parseInt(prompt("enter num"))
 // let greatest2=parseInt(prompt("enter num"))
 
@@ -20,6 +26,9 @@
 //     console.log("odd")
 // }
 
+// -------------------------------------------------------------------------------------------------------------------------------------------- 
+// ==============================================program to check Even or Odd ====================================================
+
 
 // let num1=parseInt(prompt("enter num"))
 // let num2=parseInt(prompt("enter num"))
@@ -34,6 +43,9 @@
 
 // else 
 //     {console.log(num1+num2+num3)}
+
+// -------------------------------------------------------------------------------------------------------------------------------------------- 
+// =========================================================  Syntax ====================================================
 
 
 
@@ -51,6 +63,8 @@
 
 // }
 
+// -------------------------------------------------------------------------------------------------------------------------------------------- 
+// ==============================================Q no is positive or negative check ====================================================
 
 // num=parseInt(prompt("enter num"))
 // if (num>0){
@@ -88,34 +102,44 @@
 // user input of 5 sub find avg and provide grade
 
 
-let num1 = parseInt(prompt("enter num1"))
-let num2 = parseInt(prompt("enter num2"))
-let num3 = parseInt(prompt("enter num3"))
-let num4 = parseInt(prompt("enter num4"))
-let num5 = parseInt(prompt("enter num5"))
-
-let total= console.log("total num : ",num1+num2+num3+num4+num5)
-
-let avg=console.log("Total percentage : ",(num1+num2+num3+num4+num5)/500*100)
 
 
-if (avg>=90){
-    "Grade A"
-}
 
-else if(avg>=70 ){
-  "Grade B"
-}
+// 
 
-else if (avg>=50){
-
-   "Grade C"
-}
-
-else {
-    "fail"
-}
+-------------------------------------------------------------------------------------------------------------------------------------------- 
+// ==============================================program to check (total marks,average,grade)by input of 5 sub marks ====================================================
 
 
-havre to enter input
-have to check the specification
+
+
+let sub1 = parseInt(prompt("Enter Marks 1"))
+let sub2 = parseInt(prompt("Enter Marks 2"))
+let sub3 = parseInt(prompt("Enter Marks 3"))
+let sub4 = parseInt(prompt("Enter Marks 4"))
+let sub5 = parseInt(prompt("Enter Marks 5"))
+
+let subjects = console.log(sub1,sub2,sub3,sub4,sub5)
+
+let total = sub1+sub2+sub3+sub4+sub5
+console.log("total marks : ",total)
+
+let avg = (total/500)*100
+console.log("Total Average of all subjects are : ",avg)
+
+let grade 
+
+if (avg>=90 && avg<=100)
+console.log("Grade 'A' ")
+
+else if (avg>=80 && avg<=90)
+  console.log("Grade 'B' ")
+
+else if (avg>50)
+  console.log("Grade 'C' ")
+
+else 
+  console.log("Fail")
+
+
+
