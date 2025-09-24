@@ -296,14 +296,14 @@
 
 // ======================================================For loop================================================================
 
-for (Init ; condition ;  increment / decrement){
+    //  (syntax)
+// for  (Init ; condition ;  increment / decrement){}
 
 
   // code//
   //in for loop increment decrement takes place after execution done
 
 
-}
 
 //write a program to print sum of all odd numbers between 1-15
 
