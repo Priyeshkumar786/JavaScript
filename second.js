@@ -308,11 +308,22 @@ for (Init ; condition ;  increment / decrement){
 //write a program to print sum of all odd numbers between 1-15
 
 
-sum=0
-for (let a=1;a<=15,a++){
-  if (a%2!=0){
-    sum+=a
-  }
-}
+// sum=0
+// for (a=1;a<=15,a++)
+//   {
+//   if (a%2!=0){
+//     sum+=a
+//   }
+//   }
   
-console.log(sum)
+// console.log(sum)
+
+let sum = 0;
+
+for (let i = 1; i <= 15; i++) {
+    if (i % 2 !== 0) {   // check odd number
+        sum += i;
+    }
+}
+
+console.log("Sum of odd numbers between 1 and 15 is:", sum);
