@@ -331,4 +331,4 @@ console.log("Sum of odd numbers between 1 and 15 is:", sum);
 
 // console.log  is for printing any object
 // let works internally
-
+// var works everywhere
