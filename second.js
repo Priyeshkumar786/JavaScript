@@ -318,17 +318,72 @@
   
 // console.log(sum)
 
-let sum = 0;
+// let sum = 0;
 
-for (let i = 1; i <= 15; i++) {
-    if (i % 2 !== 0) {   
-        sum += i;
-    }
-}
+// for (let i = 1; i <= 15; i++) {
+//     if (i % 2 !== 0) {   
+//         sum += i;
+//     }
+// }
 
-console.log("Sum of odd numbers between 1 and 15 is:", sum);
+// console.log("Sum of odd numbers between 1 and 15 is:", sum);
 
 
 // console.log  is for printing any object
 // let works internally
 // var works everywhere
+// --------------------------------------------------------------------------------------------------------------------------------------------------
+// ------------------------------------------------------25-09-25---------------------------------------------------------------------------------
+
+
+// always scriptsrc used in bottom of body tag
+
+
+
+
+
+// for (i=1;i<=3;i++){
+//   for(j=1;j<=5;j++){
+//     document.write("*")
+//   }
+//   document.write("<br>")
+// }
+
+
+// for (let i=1;i<=5;i++){
+//   for(j=1;j-i;j++){
+//     document.write("* ")
+//   }
+//   document.write("<br>")
+// }
+
+
+for (let i=0;i<=5;i++){
+  for (let j=0;j<=5;j++){
+    if (i==0 || i==1 || j == 0 || j ==1){
+      document.write("*")
+    else {
+      document.write(" ")
+    }
+    }
+
+  }
+  document.write("<br>")
+}
+
+
+
+// for (let r=1;r<=5;r++)
+// {
+//     for (let c=1;c<=5;c++)
+//         {
+//         if(r==1||r==5||c==1||c==5)
+//         document.write("*")
+//         else{
+//             document.write("&nbsp&nbsp")
+//         }
+//     }
+//     document.write("<br>")
+// }
+
+
