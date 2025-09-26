@@ -358,18 +358,18 @@
 // }
 
 
-for (let i=0;i<=5;i++){
-  for (let j=0;j<=5;j++){
-    if (i==0 || i==1 || j == 0 || j ==1){
-      document.write("*")
-    else {
-      document.write(" ")
-    }
-    }
+// for (let i=0;i<=5;i++){
+//   for (let j=0;j<=5;j++){
+//     if (i==0 || i==1 || j == 0 || j ==1){
+//       document.write("*")}
 
-  }
-  document.write("<br>")
-}
+//     else {
+//       document.write(" ")
+//     }
+    
+//   }
+//   document.write("<br>")
+// }
 
 
 
@@ -387,3 +387,176 @@ for (let i=0;i<=5;i++){
 // }
 
 
+// for (let i = 1;i<=5;i++)
+// {
+//   for (let j = 1;j<=5;j++){
+//     if(i==1 || i==5 || j==1 || j==5)
+//       document.write("*")
+//     else{
+//       document.write("&nbsp&nbsp")
+//     }
+//   }
+//   document.write("<br>")
+
+// }
+
+// ----------------------------------------HW------------------------------------------------
+
+// let n = 7
+
+// for (let i = 0; i < n; i++) {
+//   let row = "";
+//   for (let j = 0; j < n; j++) {
+//     if (j == i || j == n - 1 - i) {
+//       row += "*";
+//     } else {
+//       row += " ";
+//     }
+//   }
+//   console.log(row);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// for (let r=1;r<=5;r++){
+//   for (let c=1;c<=r;c++){
+//     if(r==c)||(r+c==6){
+//       document.write("*")}
+//     else{
+//       document.write("&nbsp&nbsp")
+//     }
+    
+//   }
+//   document.write()
+// }
+
+
+
+
+
+//normal print==================
+
+
+
+//
+// datatypes:-
+// primitive and non primitive
+
+// #primitive:-
+
+// Number 
+// string 
+// boolean 
+// null 
+// undefined
+
+// non primitive:-
+
+// array 
+// object 
+// function
+
+
+// FUNCTION : -  function is a block of code set of instruction
+
+// it is used for reusibility of code or funtion 
+// syntax:- 
+
+// function identifire( )
+// {
+
+//   //code 
+
+
+// }
+
+// 3 things are important in function :-
+
+// 1. funtion declaration 
+// 2. funtion defination
+// 3. funtion calling
+
+// e.g :- funtion identifire()
+// {
+
+// funtion defination
+
+
+
+// }
+
+// identifire()    //calling)
+
+
+
+
+
+// function add()
+// {
+//   let n1=25
+//   let n2=25
+
+//   console.log(n1+n2)
+// }
+
+// add()
+
+
+// function sub()
+// {
+//   let n1=25
+//   let n2=20
+//   co
+// }
+
+// write a program to check area of rectangle 
+// or input must be taken from user
+
+
+
+// function area()
+// {
+//   var L=parseInt(prompt("enter len"))
+//   var B=parseInt(prompt("enter breadth"))
+
+// console.log(L*B)
+
+// }
+
+// area()
+
+
+
+
+function num()
+{
+  let n=parseInt(prompt("enter len"))
+  {
+    if n<=20 && n>=11
+    console.log(let a=20;a>=1;a--)
+
+    else {
+      console.log(let b=10;b<=n;b--)
+    }
+
+  num()
+
+  
+  }
+
+
+
+}
+
+area()
