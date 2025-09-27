@@ -630,3 +630,13 @@
 // even(a= parseInt(prompt("enter num")))
 
 
+
+// wap to print a reverse table of any number using funtion type with argument and no return value
+
+
+function rev(num) {
+    for (let i = 10; i>= 1; i--) {
+        console.log(num + " x " + i + " = " + (num * i));
+    }
+}
+
