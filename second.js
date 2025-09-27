@@ -611,3 +611,11 @@
 // demo (10)
 
 
+
+
+
+// # wap to take a input from user and check number is even or odd using function with argument without return 
+// let a= parseInt(prompt("enter any num"))
+// function even(b)
+// {
+
