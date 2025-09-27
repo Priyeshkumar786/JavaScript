@@ -618,4 +618,7 @@
 // let a= parseInt(prompt("enter any num"))
 // function even(b)
 // {
+//   if (num%2==0){
+//     console.log("even")
+//   }
 
