@@ -625,3 +625,8 @@
 //   else{
 //     console.log("odd")
 //   }
+
+// }
+// even(a= parseInt(prompt("enter num")))
+
+
