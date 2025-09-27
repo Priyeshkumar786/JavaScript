@@ -539,24 +539,75 @@
 
 
 
-function num()
-{
-  let n=parseInt(prompt("enter len"))
-  {
-    if n<=20 && n>=11
-    console.log(let a=20;a>=1;a--)
+// function num()
+// {
+//   let n=parseInt(prompt("enter len"))
+//   {
+//     if n<=20 && n>=11
+//     console.log(let a=20;a>=1;a--)
 
-    else {
-      console.log(let b=10;b<=n;b--)
-    }
+//     else {
+//       console.log(let b=10;b<=n;b--)
+//     }
 
-  num()
+//   num()
 
   
-  }
+//   }
 
 
 
-}
+// }
 
-area()
+// area()
+
+// n=parseInt(prompt("enter num b/w 20-1 "))
+// if (n>=11 && n<=20)
+// {
+//   for (let a=20;a>=1;a--){
+//     console.log(a)
+//   }
+    
+// else if(n>=1 && n<=10)
+// {
+//   for (let i=10;i>=n;i--)
+//   {
+//     console.log(i)
+//   }
+// }
+
+// }
+
+
+// function are of two types - 1. pre defined(inbuilt)
+//                             2. user defined 
+
+
+
+
+// 4 types of function are described in the basis of argument (user defined)
+// function demo(a)------>  parameter/formal value 
+// {
+
+
+  //
+
+
+// }
+
+// demo(8)--->  argument/actual value 
+
+
+
+// 1. with argument no return type ----
+
+// e . g ---  function demo(a)
+// {
+
+//   console.log(a+a)
+
+
+// }
+// demo (10)
+
+
