@@ -656,6 +656,12 @@
 //between 1-15 or if odd then directly print the num
 let sum=0
 let num=parseInt(prompt("enter num"))
+function check(num){
+  let sum=0
+
+  
+
+
 
 
 
