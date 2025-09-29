@@ -654,10 +654,8 @@
 
 //WAP take an input of int num if the input is between 1-5 then check is it even/odd...recieve. if the input is even then return sum 
 //between 1-15 or if odd then directly print the num
-
-
-
-
+let sum=0
+let num=parseInt(prompt("enter num"))
 
 
 
