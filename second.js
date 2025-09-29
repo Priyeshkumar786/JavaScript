@@ -669,7 +669,13 @@ function check(num){
     
 
   }
-  
+  else{
+    console.log("odd")
+  }
+
+}
+
+
 
 
 
