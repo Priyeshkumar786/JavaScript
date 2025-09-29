@@ -665,7 +665,13 @@ function check(num){
       for (let i=1;i<=15;i++)
         sum+=i
     }
-   
+    return "input is even "+sum
+    
+
+  }
+  
+
+
 
 
 
