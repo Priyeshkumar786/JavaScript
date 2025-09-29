@@ -659,7 +659,13 @@ let num=parseInt(prompt("enter num"))
 function check(num){
   let sum=0
 
-  
+  if (num>=1 && num<=5){
+    if (num%2==0){
+      
+     
+
+
+
 
 
 
