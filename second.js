@@ -633,11 +633,48 @@
 
 // wap to print a reverse table of any number using funtion type with argument and no return value
 
+// even=parseInt(prompt("enter number"))
+// function table(b)
+// {
+//   if(num%2==0){
+//     console.log("even number")
+//   }
 
-function rev(num) {
-    for (let i = 10; i>= 1; i--) {
-        console.log(num + " x " + i + " = " + (num * i));
-    }
-}
+//   else{
+//     console.log("odd number")
+//   }
 
-enter the element to call
+// }
+// even(a=parseInt(prompt("enter a number")))
+
+
+// ==========================================================JavaScript======================================================================
+
+
+
+//WAP take an input of int num if the input is between 1-5 then check is it even/odd...recieve. if the input is even then return sum 
+//between 1-15 or if odd then directly print the num
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
