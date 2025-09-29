@@ -662,10 +662,10 @@ function check(num){
   if (num>=1 && num<=5){
     if (num%2==0){
       
-     
-
-
-
+      for (let i=1;i<=15;i++)
+        sum+=i
+    }
+   
 
 
 
