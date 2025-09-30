@@ -740,6 +740,10 @@
 //     pattern+="* "
 //     }
 
+//     console.log(pattern)
+// }
+
+
 
 
 
