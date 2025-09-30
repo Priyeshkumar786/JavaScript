@@ -654,41 +654,85 @@
 
 //WAP take an input of int num if the input is between 1-5 then check is it even/odd...recieve. if the input is even then return sum 
 //between 1-15 or if odd then directly print the num
-let sum=0
-let num=parseInt(prompt("enter num"))
-function check(num){
-  let sum=0
+// let sum=0
+// let num=parseInt(prompt("enter num"))
+// function check(num){
+//   let sum=0
 
-  if (num>=1 && num<=5){
-    if (num%2==0){
+//   if (num>=1 && num<=5){
+//     if (num%2==0){
       
-      for (let i=1;i<=15;i++)
-        sum+=i
-    }
-    return "input is even "+sum
+//       for (let i=1;i<=15;i++)
+//         sum+=i
+//     }
+//     return "input is even "+sum
     
 
-  }
-  else{
-    console.log("odd")
-  }
+//   }
+//   else{
+//     console.log("odd")
+//   }
 
-}
-
-
+// }
 
 
 
+// let num=parseInt(prompt("enter num"))
+// if (num>0){
+//   console.log("num is positive")
+// }
+
+// else if(num==0){
+//   console.log("num is zero")
+// }
+
+// else{
+//   console.log("num is negative")
+// }
 
 
 
+// let year = parseInt(prompt("enter year"))
+ 
+
+// if(year%4==0 || year%400==0){
+//   console.log(year+"leap year")
+//   2024
+  
+// }
+
+// else{
+//   console.log(year,"not a leap year")     
+// }
+
+
+// for(let i=1;i<=100;i++){
+//   console.log(i)
+
+// }
+// =======================================================
 
 
 
+// table=parseInt(prompt("enter num"))
+
+// for(let i=1;i<=10;i++){
+//   console.log(table+ "x" + i +"= "+ table*i)
+// }
+
+// ==========================================================
+
+// let num = parseInt(prompt("Enter a number: "));
+// let fact = 1;
+
+// for (let i = 1; i <= num; i++) {
+//     fact *= i;
+// }
+
+// console.log("Factorial of " + num + " = " + fact);
 
 
-
-
+// =========================================================
 
 
 
