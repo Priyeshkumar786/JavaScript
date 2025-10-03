@@ -767,3 +767,15 @@
 
 // console.log(demo())
 
+
+// wap to take input from user and find area of triangle using func 4
+
+
+// function area(){
+//   let b= parseInt(prompt("enter length"))
+//   let h= parseInt(prompt("enter breadth"))
+//   return 0.5*b*h
+
+// }
+
+// console.log(area())
