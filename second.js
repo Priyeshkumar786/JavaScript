@@ -758,3 +758,12 @@
 
 
 //===========================No argument with Return=================================
+
+// function demo(){
+//   let a=9
+//   return a+a
+
+// }
+
+// console.log(demo())
+
