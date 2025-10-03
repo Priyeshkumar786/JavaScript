@@ -743,12 +743,18 @@
 //     console.log(pattern)
 // }
 
+// =================================================================
+
+// num=parseInt(prompt("enter num"))
+// for (let i=1;i<=50;i++){
+//   console.log(i)
+
+//   if (even=i%2==0){
+//     console.log(even+" is even num")
+
+// }
+
+// }
 
 
-
-
-
-
-
-
-
+//===========================No argument with Return=================================
