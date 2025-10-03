@@ -779,3 +779,6 @@
 // }
 
 // console.log(area())
+
+
+funtions
