@@ -786,3 +786,5 @@ funtions
 3types
 pre defined
 
+
+another functions
