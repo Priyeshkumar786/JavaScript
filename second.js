@@ -788,3 +788,4 @@ pre defined
 
 
 another functions
+more functions there are two types of function 1.user defined and pre defined
