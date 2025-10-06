@@ -26,3 +26,5 @@ document.body.setAttribute('bgcolor','yellow')
 
 document.getElementById('head').removeAttribute('style')   // we will remove any css and styling through javascript.
 
+
+added additional funtion 
