@@ -29,3 +29,4 @@ document.getElementById('head').removeAttribute('style')   // we will remove any
 
 added additional funtion 
 added more
+more functions
