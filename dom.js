@@ -94,10 +94,3 @@ document.getElementById('new').append(joy)
 
 // have to put 10 items put green , padding 12px ,text white in every even numbers of items
 
-have to take input
-have to take input
-have to take input
-have to take input
-have to take input
-have to take input
-have to take input
