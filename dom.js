@@ -96,3 +96,4 @@ document.getElementById('new').append(joy)
 
 have to take input
 have to take input
+have to take input
