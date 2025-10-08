@@ -83,14 +83,55 @@
 // ===========================
 
 
-let joy = document.createElement('p')
+// let joy = document.createElement('p')
 
-joy.textContent = "new element from js file"
-console.log(joy);
+// joy.textContent = "new element from js file"
+// console.log(joy);
 
-document.getElementById('new').append(joy)
+// document.getElementById('new').append(joy)
 
 // ===========================================================H W================================================================
 
 // have to put 10 items put green , padding 12px ,text white in every even numbers of items
 
+// ==================================================================================\
+
+// document.getElementById('image').scr="img2.jpeg"
+
+//event are said to be "action" which's performed by user itself on a webpage.
+
+//-------------------mouse events----------------
+
+// function fun(){
+//     alert ("working.... please wait....")
+// }
+// --------------------------------------------------------------------------------------
+
+// function red(){
+
+// document.body.style.backgroundColor="red"}
+
+
+// function blue(){
+//     document.body.style.backgroundColor="blue"
+
+// }
+
+
+
+// function yellow(){
+//     document.body.style.backgroundColor="yellow"
+
+// }
+
+
+// function orange(){
+//     document.body.style.backgroundColor="orange"
+
+// }
+
+// --------------------------------------------------------------------------------
+
+function color(cl){
+    document.body.style.backgroundColor="cl"
+}

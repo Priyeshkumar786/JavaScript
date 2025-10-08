@@ -1,3 +1,10 @@
+// ===========================================================H W================================================================
+
+// have to put 10 items put green , padding 12px ,text white in every even numbers of items
+
+
+
+
 let list = document.getElementById("itemlist");
 
 for (let i = 1;i<=10;i++){
