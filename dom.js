@@ -132,6 +132,6 @@
 
 // --------------------------------------------------------------------------------
 
-function color(cl){
-    document.body.style.backgroundColor="cl"
-}
+// function color(cl){
+//     document.body.style.backgroundColor="cl"
+// }
