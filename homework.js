@@ -5,17 +5,66 @@
 
 
 
-let list = document.getElementById("itemlist");
+// let list = document.getElementById("itemlist");
 
-for (let i = 1;i<=10;i++){
-    let li = document.createElement("li");
-    li.textContent = "ITEM " + i;
+// for (let i = 1;i<=10;i++){
+//     let li = document.createElement("li");
+//     li.textContent = "ITEM " + i;
 
-    if(i%2===0){
-        li.style.backgroundColor = "green";
-        li.style.color = "white";
-        li.style.padding= "12px"
+//     if(i%2===0){
+//         li.style.backgroundColor = "green";
+//         li.style.color = "white";
+//         li.style.padding= "12px"
+//     }
+
+//     list.appendChild(li);
+// }
+
+
+// ======================================================================================================
+                                   08/10/25
+                            // ---------------
+
+
+//     let num = parseInt(prompt("enter number : "))
+
+//     console.log("Original value:", num);
+
+//     num++;  // increment
+//     console.log("After increment:", num);
+
+//     num--;  // decrement
+//     console.log("After decrement:", num);
+
+
+// let count=0
+// document.getElementById='main'
+
+// function increment(){
+//     count++;
+//     main.innerHTML=count;
+// }
+
+// function decrement(){
+//     if(count>0){
+//         count--;
+//         main.innerHTML=count;
+//     }
+// }
+
+
+
+var n = 0
+var count = document.getElementById('count')
+function inc(){
+    count.innerHTML = ++n
+}
+
+function dec(){
+    if (n>0){
+        count.innerHTML = --n
     }
-
-    list.appendChild(li);
+    else{
+        alert("not less than zero")
+    }
 }
