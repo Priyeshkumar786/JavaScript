@@ -22,7 +22,7 @@
 
 
 // ======================================================================================================
-                                   08/10/25
+                                //    08/10/25
                             // ---------------
 
 
@@ -54,17 +54,37 @@
 
 
 
-var n = 0
-var count = document.getElementById('count')
-function inc(){
-    count.innerHTML = ++n
-}
+// var n = 0
+// var count = document.getElementById('count')
+// function inc(){
+//     count.innerHTML = ++n
+// }
 
-function dec(){
-    if (n>0){
-        count.innerHTML = --n
+// function dec(){
+//     if (n>0){
+//         count.innerHTML = --n
+//     }
+//     else{
+//         alert("not less than zero")
+//     }
+// }
+
+
+// -------------------------------------------------------09/10/2025-------------------------------------------------------------
+
+
+ function showImage(device) {
+      let img = document.getElementById("deviceImage");
+
+      if (device === "mobile") {
+        img.src = "mobile.jpeg";
+      } else if (device === "tablet") {
+        img.src = "tablet.jpg"
+      } else if (device === "laptop") {
+        img.src = "laptop.jpeg";
+      }
+
+      img.alt = device + " image";
     }
-    else{
-        alert("not less than zero")
-    }
-}
+
+    document.getElementById("deviceImage").style.height="250px"

@@ -152,7 +152,18 @@
 //     document.getElementById('text').style.backgroundColor="green"
 // }
 
+//  function showImage(device) {
+//       let img = document.getElementById("deviceImage");
 
-function mobile(){
-    
-}
+//       if (device === "mobile") {
+//         img.src = "mobile.jpeg";
+//       } else if (device === "tablet") {
+//         img.src = "tablet.jpg"
+//       } else if (device === "laptop") {
+//         img.src = "laptop.jpeg";
+//       }
+
+//       img.alt = device + " image";
+//     }
+
+//     document.getElementById("deviceImage").style.height="250px"
