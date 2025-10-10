@@ -73,7 +73,7 @@
 // -------------------------------------------------------09/10/2025-------------------------------------------------------------
 
 
- function showImage(device) {
+ function show(device) {
       let img = document.getElementById("deviceImage");
 
       if (device === "mobile") {
@@ -88,3 +88,22 @@
     }
 
     document.getElementById("deviceImage").style.height="250px"
+
+
+    // -------------------------------------------------------------
+
+
+
+    function showFlower(flower) {
+      let img = document.getElementById("flowerImage");
+
+      if (flower === "rose") {
+        img.src = "https://cdn.pixabay.com/photo/2017/01/20/00/30/rose-1997282_1280.jpg";
+      } else if (flower === "sunflower") {
+        img.src = "https://cdn.pixabay.com/photo/2016/03/05/19/02/sunflower-1235721_1280.jpg";
+      } else if (flower === "lotus") {
+        img.src = "https://cdn.pixabay.com/photo/2017/01/20/00/30/lotus-1997280_1280.jpg";
+      }
+
+      img.alt = flower + " image";
+    }
