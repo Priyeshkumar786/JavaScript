@@ -90,78 +90,8 @@
 //     document.getElementById("deviceImage").style.height="250px"
 
 
-    // ------------------------------------------by sir-------------------
 
-    // function fun1(){
-    //   document.getElementById('image').src="mobile.jpeg"
-    // }
-
-    
-    // function fun2(){
-    //   document.getElementById('image').src="tabletjpg"
-    // }
-
-    
-    // function fun3(){
-    //   document.getElementById('image').src="laptop.jpeg"
-    // }
-
-
-// --------------------------------------------------------------------------------
-
-// array denoted by []
-// array means many multiple variable or data we can store
-
-
-// {/* <h1>welcome</h1> */}
-
-// let h = document.getElementsByTagName('h1')
-// console.log(h[0])
-// h[0].style.color="red"
-
-
-//everything in dom is node==========================================
-
-// console.log(h[0])
-// let a = document.getElementById('h2').style.color="red"
-// let b= document.getElementById('h2').style.color="blue"
-// let c = document.getElementsByTagName('h2').style.color="black"
-// let d = document.getElementsByTagName('h2').style.color="green"       //doo
-// let e= document.getElementsByTagName('h2').style.color="yellow"
-// let f = document.getElementsByTagName('h2').style.color="pink"
-
-
-
-
-
-
-
-let z=document.getElementsByClassName('a')
-console.log(z[0])
-z[0].style.color="red"
-z[1].style.color="blue"
-z[2].style.color="green"
-z[3].style.color="yellow"
-z[4].style.color="black"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// question------------=============-------==================---------===============----------------===============
 
     // function showFlower(flower) {
     //   let img = document.getElementById("flowerImage");
@@ -176,3 +106,5 @@ z[4].style.color="black"
 
     //   img.alt = flower + " image";
     // }
+
+// ---------------------------------------------------------------------------------------------
