@@ -235,4 +235,107 @@
 
 
 
-let li = document.querySelectorAll(1)
+// let li = document.querySelectorAll(1)
+
+// --------------------------------------------------------------------------------
+
+// function fun(){
+//     let warpper = document.querySelector('#container')
+//     warpper.classList.add('wrapper')
+
+// }
+
+
+// function fun1(){
+//     let container = document.querySelector('#container')    //# is used for container in js
+//     container.classList.remove('wrapper')
+
+// }
+
+// function both(){
+//     let cn = document.querySelector('#container')
+//     cn.classList.toggle                                  //toggle for one tym true and false both
+// }
+
+// function fun1(){
+//     document.body.classList.toggle('color')
+//     if(dark== true){
+
+        
+//     }
+
+
+// }
+
+// function change(){
+//     let g = document.getElementById('again').textCon
+// }
+// ------------------------------------------------------------
+// function theme(){
+//     let an= document.body.classList.toggle('theme')
+//     console.log(an);
+
+//     if(an==true){
+//         document.querySelector('#btn').textContent="light"
+
+
+// }
+// else{
+//     document.querySelector('#btn').textContent="dark"
+// }
+// }
+
+
+// function fun(){
+//     let j=document.querySelector('body')
+//     let an = j.classList.toggle('pic')
+//     console.log(an)
+    
+//     if(an==true){
+//       document.querySelector('#imp').textContent="light"
+//     }
+//     else{
+//         document.querySelector('#imp').textContent="dark"
+//     }
+
+// }
+
+//add remove toggle
+
+//=====================================================callback funtion================================================================
+
+//setInterval ( )  - it is process through which  in a perticular time duration we have to pass any function
+// setInterval(function,timer)  // could be written in miliseconds everytime... it will run infinite..
+
+// setInterval(()=>{document.write("hi...")},3000)
+
+// function fun(let i = 1; i<=10;i++){
+//     if i
+//     setInterval((h1)=>{document.write(h1)},1000)
+
+
+// }
+
+
+let a= 0
+let h1 = document.querySelector('#count')
+let st
+function counter(){
+    st= setInterval(()=>{
+        h1.innerHTML= ++a
+    },1000)
+}
+
+function stop(){
+
+    clearInterval(st)
+}
+
+function resett(){
+    a=0
+    h1.innerHTML = a
+    clearInterval(st)
+
+}
+
+// hw is designing the counter 
