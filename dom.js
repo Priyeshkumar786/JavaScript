@@ -375,5 +375,10 @@
 function querySelectorAll
 let a = 0
 let h1 = document.querySelector('#count')
-l
+let st
+function fun(){
+    st= setInterval(()=>{
+        h1.innerHTML= ++a
+    },1000)
+}
 
