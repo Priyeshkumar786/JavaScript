@@ -382,3 +382,15 @@ function fun(){
     },1000)
 }
 
+function stop(){
+
+    clearInterval(st)
+}
+
+function resett(){
+    a=0
+    h1.innerHTML = a
+    clearInterval(st)
+
+}
+
