@@ -320,7 +320,7 @@
 let a= 0
 let h1 = document.querySelector('#count')
 let st
-function counter(){
+function fun(){
     st= setInterval(()=>{
         h1.innerHTML= ++a
     },1000)
