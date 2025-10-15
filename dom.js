@@ -317,25 +317,56 @@
 // }
 
 
-let a= 0
-let h1 = document.querySelector('#count')
-let st
-function fun(){
-    st= setInterval(()=>{
-        h1.innerHTML= ++a
-    },1000)
-}
+// let a= 0
+// let h1 = document.querySelector('#count')
+// let st
+// function fun(){
+//     st= setInterval(()=>{
+//         h1.innerHTML= ++a
+//     },1000)
+// }
 
-function stop(){
+// function stop(){
 
-    clearInterval(st)
-}
+//     clearInterval(st)
+// }
 
-function resett(){
-    a=0
-    h1.innerHTML = a
-    clearInterval(st)
+// function resett(){
+//     a=0
+//     h1.innerHTML = a
+//     clearInterval(st)
 
-}
+// }
+// -------------------------------------------------------------------------------
 
 // hw is designing the counter 
+
+// ---------------------------------------------------------------------------------------
+
+// set setTimeout is a funtion which call the working any performance only for one time
+
+// setTimeout(()=>{
+//     alert("working ....")
+// },3000)
+
+// document.getElementById('img').setAttribute('src','form.webp')
+// Timeout(()=>{
+    
+// },3000)
+
+// setTimeout(()=>{
+//     document.querySelector('form').style.display="block"
+// },5000)
+
+// -------------------------------------------------------------------------
+
+
+// function fun1()
+// setTimeout(()=>{
+//     document.querySelector('#head').style.display="block"
+// },5000)
+
+// -------------------------------------------------------------------------------
+
+
+// have 3 buttons start stop reset in the middle of the page
