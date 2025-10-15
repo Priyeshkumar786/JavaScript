@@ -370,3 +370,10 @@
 
 
 // have 3 buttons start stop reset in the middle of the page
+
+
+function querySelectorAll
+let a = 0
+let h1 = document.querySelector('#count')
+l
+
