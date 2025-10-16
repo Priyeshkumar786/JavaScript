@@ -372,25 +372,81 @@
 // have 3 buttons start stop reset in the middle of the page
 
 
-function querySelectorAll
-let a = 0
-let h1 = document.querySelector('#count')
-let st
-function fun(){
-    st= setInterval(()=>{
-        h1.innerHTML= ++a
-    },1000)
+// function querySelectorAll
+// let a = 0
+// let h1 = document.querySelector('#count')
+// let st
+// function fun(){
+//     st= setInterval(()=>{
+//         h1.innerHTML= ++a
+//     },1000)
+// }
+
+// function stop(){
+
+//     clearInterval(st)
+// }
+
+// function resett(){
+//     a=0
+//     h1.innerHTML = a
+//     clearInterval(st)
+
+// }
+
+
+// -------------------------------------------------------------------------------------------
+
+// let count = 1
+// let gap = setInterval(()=>{
+  
+//   alert(`This is {count} alert`+1)
+//   count++
+//   if(count > 5) {
+//     (gap)
+//   }
+// },3000)
+
+
+///ig fb snapchat telegram buttons if click on ig text occur like ig open will be red in color if user click on button fb text occure like fb open in blue if snapchat text will yellow
+
+// -------------------------------------------------
+
+
+
+
+
+  function what(){
+    let a = document.getElementById('h1')
+    a.style.backgroundColor='green'
+    a.style.color='white'
+
 }
 
-function stop(){
-
-    clearInterval(st)
-}
-
-function resett(){
-    a=0
-    h1.innerHTML = a
-    clearInterval(st)
+function insta(){
+    let b = document.getElementById('h2')
+    b.style.backgroundColor='lightpink'
+    b.style.color='black'
 
 }
 
+function face(){
+    let c = document.getElementById('h3')
+    c.style.backgroundColor='royalblue'
+    c.style.color='white'
+
+}
+
+function snap(){
+    let d = document.getElementById('h4')
+    d.style.backgroundColor='yellow'
+    d.style.color='black'
+
+}
+
+function twit(){
+    let e = document.getElementById('h5')
+    e.style.backgroundColor='blue'
+    e.style.color='grey'
+
+}
