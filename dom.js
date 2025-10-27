@@ -416,37 +416,43 @@
 
 
 
-  function what(){
-    let a = document.getElementById('h1')
-    a.style.backgroundColor='green'
-    a.style.color='white'
+//   function what(){
+//     let a = document.getElementById('h1')
+//     a.style.backgroundColor='green'
+//     a.style.color='white'
 
-}
+// }
 
-function insta(){
-    let b = document.getElementById('h2')
-    b.style.backgroundColor='lightpink'
-    b.style.color='black'
+// function insta(){
+//     let b = document.getElementById('h2')
+//     b.style.backgroundColor='lightpink'
+//     b.style.color='black'
 
-}
+// }
 
-function face(){
-    let c = document.getElementById('h3')
-    c.style.backgroundColor='royalblue'
-    c.style.color='white'
+// function face(){
+//     let c = document.getElementById('h3')
+//     c.style.backgroundColor='royalblue'
+//     c.style.color='white'
 
-}
+// }
 
-function snap(){
-    let d = document.getElementById('h4')
-    d.style.backgroundColor='yellow'
-    d.style.color='black'
+// function snap(){
+//     let d = document.getElementById('h4')
+//     d.style.backgroundColor='yellow'
+//     d.style.color='black'
 
-}
+// }
 
-function twit(){
-    let e = document.getElementById('h5')
-    e.style.backgroundColor='blue'
-    e.style.color='grey'
+// function twit(){
+//     let e = document.getElementById('h5')
+//     e.style.backgroundColor='blue'
+//     e.style.color='grey'
 
-}
+// }
+
+// ==============================================================
+
+// <button> should be targeted in js
+// addeventlistener( , )
+//     it have two paramenters (event,funtion)
