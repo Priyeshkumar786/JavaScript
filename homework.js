@@ -148,21 +148,22 @@
 
 // -----------------------------------------------------------------------------------
 
-else if(pass == ""){
-  alert("enter password")
-  document.querySelector('#pass').focus()
-  return false
-}
+// else if(pass == ""){
+//   alert("enter password")
+//   document.querySelector('#pass').focus()
+//   return false
+// }
 
 
-else if (!(pass.match(/[~`!@#$%^&*()]/))){
-  alert("please enter special character pass")
-  document.querySelector('#pass').focus()
-  return false
-}
+// else if (!(pass.match(/[~`!@#$%^&*()]/))){
+//   alert("please enter special character pass")
+//   document.querySelector('#pass').focus()
+//   return false
+// }
 
 
 // includes function which includes the value ,length,match
-// password must have special characters,one number and one capital and must no be less than 8 and greater than 15
 
-old
+// password must have special characters,one number and one capital and must no be less than 8 and greater than 15
+// ---------------------------------------------------------------------------------------------
+
