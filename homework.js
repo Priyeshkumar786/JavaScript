@@ -181,3 +181,4 @@ function validatePassword() {
         result.innerText = "❌ Password must contain at least one capital letter, one number, one special character, and be 8-15 characters long.";
       }
     }
+    more homework
