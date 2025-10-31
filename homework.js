@@ -167,3 +167,6 @@
 // password must have special characters,one number and one capital and must no be less than 8 and greater than 15
 // ---------------------------------------------------------------------------------------------
 
+function validatePassword() {
+      let password = document.getElementById("password").value;
+      let result = document.getElementById("result");}
