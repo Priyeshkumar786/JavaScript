@@ -108,3 +108,29 @@
     // }
 
 // ---------------------------------------------------------------------------------------------
+
+
+
+function validate() {
+  let age = document.getElementById("age").value
+  let contact = document.getElementById("contact").value
+
+  if (age.length > 3) {
+    alert("input 3 digit age")
+    return false
+  }
+
+  if (contact.length > 10) {
+    alert("not be more than 10 digits")
+    return false
+  }
+
+  if (age == "" || contact == "") {
+    alert("Plzz fill all field")
+    return false
+  }
+
+  alert("submitted successfully")
+  return true
+}
+
