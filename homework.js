@@ -111,26 +111,57 @@
 
 
 
-function validate() {
-  let age = document.getElementById("age").value
-  let contact = document.getElementById("contact").value
+// function validate() {
+//   let age = document.getElementById("age").value
+//   let contact = document.getElementById("contact").value
 
-  if (age.length > 3) {
-    alert("input 3 digit age")
-    return false
-  }
+//   if (age.length > 3) {
+//     alert("input 3 digit age")
+//     return false
+//   }
 
-  if (contact.length > 10) {
-    alert("not be more than 10 digits")
-    return false
-  }
+//   if (contact.length > 10) {
+//     alert("not be more than 10 digits")
+//     return false
+//   }
 
-  if (age == "" || contact == "") {
-    alert("Plzz fill all field")
-    return false
-  }
+//   if (age == "" || contact == "") {
+//     alert("Plzz fill all field")
+//     return false
+//   }
 
-  alert("submitted successfully")
-  return true
+//   alert("submitted successfully")
+//   return true
+
+//   else if(email==""){
+//     alert("please enter email")
+//     document.querySelector('#email').focus
+//     return false
+//   }
+
+//   else if (!(email.includes('@gmail.com'))) {
+//     alert("please enter valid email")
+//     document.querySelector('#email').focus
+//     return false
+//   }
+// }
+
+// -----------------------------------------------------------------------------------
+
+else if(pass == ""){
+  alert("enter password")
+  document.querySelector('#pass').focus()
+  return false
 }
+
+
+else if (!(pass.match(/[~`!@#$%^&*()]/))){
+  alert("please enter special character pass")
+  document.querySelector('#pass').focus()
+  return false
+}
+
+
+// includes function which includes the value ,length,match
+// password must have special characters,one number and one capital and must no be less than 8 and greater than 15
 
