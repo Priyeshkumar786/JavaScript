@@ -29,4 +29,5 @@
 // console.log(detail)
 
 let emp = {
+    name:"priyesh",
    
