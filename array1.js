@@ -65,3 +65,9 @@
 
     // ar.splice(1,2)
     // console.log(ar)
+
+    //splice edits the avalue in any array it removes or add the value
+             //start stop  value
+    //Array.splice(3,0,"django")
+
+    //practice questions for array methods pop push unshift shift slice splice
