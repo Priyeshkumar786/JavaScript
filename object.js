@@ -27,3 +27,6 @@
 //     friend10:"lucky",
 // }
 // console.log(detail)
+
+let emp = {
+   
