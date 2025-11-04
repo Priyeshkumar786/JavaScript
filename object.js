@@ -30,4 +30,13 @@
 
 let emp = {
     name:"priyesh",
-   
+    emp_salary : [10000,13000,21000,28000,28500,5000],
+    add : function(){
+        return 2+3
+    },
+    emp_account : {
+        bank_name : "sbi",
+        acc_no: 123456558524
+    }
+}
+console.log(emp.add())
