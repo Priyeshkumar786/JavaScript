@@ -27,23 +27,41 @@
 
     // in built funtions of array 
 
-    let ar = ['ajay','bhopal',23]
+    // let ar = ['ajay','bhopal',23]
 
-    //push()                             it works like append adds one value at last
-    ar.push("js",'react')
-    console.log(ar)
+    // //push()                             it works like append adds one value at last
+    // ar.push("js",'react')
+    // console.log(ar)
  
-    //pop()                             removes last value in an array
+    // //pop()                             removes last value in an array
 
-    ar.pop()
-    console.log(ar)
+    // ar.pop()
+    // console.log(ar)
 
-    //unshift()                        adds one value at first position in array
+    // //unshift()                        adds one value at first position in array
 
-    ar.unshift("c","jas")
-    console.log(ar)
+    // ar.unshift("c","jas")
+    // console.log(ar)
 
-    //shift()                          removes first value element of any array
+    // //shift()                          removes first value element of any array
 
-    ar.shift()
-    console.log(ar)
+    // ar.shift()
+    // console.log(ar)
+
+    // //indexOf()                        gives index of any value present in array
+
+    // let ind = ar.indexOf('bhopal')
+    // console.log(ind)
+
+    // ---------------------------------------------------------------------------------------------------
+
+    //slice           slice (start index stop index value)
+    // let ar = ["python","java","c++","sql"]
+    // let value = ar.slice(1,3)
+    // console.log(value)
+
+    //splice()
+    // it removes the value (index value(start), no. of elements)
+
+    // ar.splice(1,2)
+    // console.log(ar)
