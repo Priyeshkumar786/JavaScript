@@ -1,4 +1,5 @@
 // object is unordered
+//its collection of multiple element
 //it store in the pair of key and value
 // it denotes in {} not indexing
 
@@ -28,15 +29,96 @@
 // }
 // console.log(detail)
 
-let emp = {
-    name:"priyesh",
-    emp_salary : [10000,13000,21000,28000,28500,5000],
-    add : function(){
-        return 2+3
+// let emp = {
+//     name:"priyesh",
+//     emp_salary : [10000,13000,21000,28000,28500,5000],
+//     add : function(){
+//         return 2+3
+//     },
+//     emp_account : {
+//         bank_name : "sbi",
+//         acc_no: 123456558524
+//     }
+// }
+// -------------------------------------------------------------------------------
+// console.log(emp.add())       dot notation
+//console.log(ob["name"])       bracket notation
+
+// let ob = {
+//     "full name" : "TV",
+//     age : 29
+
+// }
+// console.log(ob["full name"])
+
+// let stname= prompt("enter name")
+// let stage= prompt("enter age")
+// let stcontact= prompt("enter contact")
+// let student={
+//     stname : "",
+//     stage : "",
+//     stcontact : ""
+// }
+// console.log(student)
+
+//for in loop basically used to access the keys of object
+
+// let stude4nt = {
+//     stname:"priyesh",
+//     stage:"22",
+//     stcontact:"12345"
+// }
+// for (let k in student){
+//     console.log(k)
+//     console.log(student[k])                    //it prints the value nd said to be bracket notation with by using of for in loop
+
+// }
+
+// //functions
+
+// // for printing the keys of any object:--
+
+// let ky = Object.keys(student)                     // object O must be capital
+// console.log(ky)
+
+// // for printing the values of any object:--
+// let vl=Object.values(student)
+// console.log(vl)
+
+// in  array it there should be stored of one person data
+// array of object
+
+let student = [
+    {
+        name:priyesh,
+        age:22,
+        contact : 123456
+
     },
-    emp_account : {
-        bank_name : "sbi",
-        acc_no: 123456558524
+    {
+        name:taresh,
+        age:20,
+        contact : 123456
+
+    },
+    {
+        name:tanish,
+        age:22,
+        contact : 123456
+
+    },
+    {
+        name:smriti,
+        age:22,
+        contact : 123456
+
+    },
+      {
+        name:smriti,
+        age:22,
+        contact : 123456
+
     }
-}
-console.log(emp.add())
+    
+]
+console.log(student)
