@@ -154,3 +154,8 @@
 // it returns the value as bullion value             //this function always returns the value
 
 // ------------------------------------------------------------
+//filter ()
+
+//its also have callback funtion
+//it always work on array 
+
