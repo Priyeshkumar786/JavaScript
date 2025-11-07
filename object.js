@@ -131,3 +131,21 @@
 // Array.map(()=>{
 
 //     return                                // map function is the function which callbacks any function
+// })             //syntax
+
+// let ar = [{
+//     name:"priyesh",
+//     age:"10"
+// },
+// {
+//     name:"taresh",
+//     age:"23"
+
+// }]
+// console.log(res)
+
+
+
+// let res = ar.map((e)=>{
+//     // return e.age>=18
+//     return e.age+" "+e.name
