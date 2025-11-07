@@ -149,3 +149,8 @@
 // let res = ar.map((e)=>{
 //     // return e.age>=18
 //     return e.age+" "+e.name
+// })
+// console.log(res)
+// it returns the value as bullion value             //this function always returns the value
+
+// ------------------------------------------------------------
