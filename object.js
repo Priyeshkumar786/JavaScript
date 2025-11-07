@@ -159,3 +159,17 @@
 //its also have callback funtion
 //it always work on array 
 
+
+// let ar = [{
+//     name:"priyesh",
+//     age:"10"
+// },
+// {
+//     name:"taresh",
+//     age:"23"
+
+// }]
+// let res = ar.filter((i)=>{
+//     return i.age>=18
+    
+// })
