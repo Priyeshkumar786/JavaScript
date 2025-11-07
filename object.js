@@ -50,6 +50,7 @@
 
 // }
 // console.log(ob["full name"])
+// -------------------------------------------------------------
 
 // let stname= prompt("enter name")
 // let stage= prompt("enter age")
@@ -60,6 +61,7 @@
 //     stcontact : ""
 // }
 // console.log(student)
+// -----------------------------------------------------------------
 
 //for in loop basically used to access the keys of object
 
@@ -88,37 +90,44 @@
 // in  array it there should be stored of one person data
 // array of object
 
-let student = [
-    {
-        name:priyesh,
-        age:22,
-        contact : 123456
+// let student = [
+//     {
+//         name:priyesh,
+//         age:22,
+//         contact : 123456
 
-    },
-    {
-        name:taresh,
-        age:20,
-        contact : 123456
+//     },
+//     {
+//         name:taresh,
+//         age:20,
+//         contact : 123456
 
-    },
-    {
-        name:tanish,
-        age:22,
-        contact : 123456
+//     },
+//     {
+//         name:tanish,
+//         age:22,
+//         contact : 123456
 
-    },
-    {
-        name:smriti,
-        age:22,
-        contact : 123456
+//     },
+//     {
+//         name:smriti,
+//         age:22,
+//         contact : 123456
 
-    },
-      {
-        name:smriti,
-        age:22,
-        contact : 123456
+//     },
+//       {
+//         name:smriti,
+//         age:22,
+//         contact : 123456
 
-    }
+//     }
     
-]
-console.log(student)
+// ]
+// console.log(student)
+
+// ------------------------------------------------------------------------------------------------------------------------------
+
+//Map() is a high order function which is accesable as result in which access the new element of array and put in the new array
+// Array.map(()=>{
+
+//     return                                // map function is the function which callbacks any function
