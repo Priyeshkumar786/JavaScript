@@ -25,4 +25,8 @@
             //     localStorage.setItem("area",56)
 
             //     localStorage.setItem("town","shanj")
-           
+            //     localStorage.setItem("state",90)
+
+            //   //getitems-------
+
+            
