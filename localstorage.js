@@ -35,4 +35,7 @@
             // //removeitem()----------
             // localStorage.removeItem("city")
 
-           
+            // // localStorage.clear()
+
+            // // ---------------------------------------
+    // 
