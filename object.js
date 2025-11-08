@@ -174,3 +174,10 @@
     
 // })
 // console.log(res)
+// ------------------------------------------------------------------------------------------
+
+//destructuring of array:-
+
+            // let [name,city,class,batch]=["priyesh","bhopal","fsd","p60"]
+            // console.log(name)
+
