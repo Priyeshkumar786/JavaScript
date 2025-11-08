@@ -38,4 +38,19 @@
             // // localStorage.clear()
 
             // // ---------------------------------------
-    // 
+    //         let person = {
+    //             name:"raj",age:45,city:"bhopal"
+    //         }
+
+    //     localStorage.setItem("userdata",JSON.stringify(person))
+
+    //    let vl=  localStorage.getItem("userdata")
+    //    let vb=  JSON.parse(localStorage.getItem("userdata"))                  //used parse to convert any string in object
+    //    console.log(vl);
+    //    console.log(vl.name);
+       
+
+       let per1 ={
+        name:"raj",age:45,city:"bhopal"
+       }
+       localStorage.setItem("userdata".Json)
