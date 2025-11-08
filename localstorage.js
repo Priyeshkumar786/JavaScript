@@ -20,3 +20,9 @@
 
             //     localStorage.setItem("username","nikhil")
             //     localStorage.setItem("userage",90)
+
+            //     localStorage.setItem("city","bhopal")
+            //     localStorage.setItem("area",56)
+
+            //     localStorage.setItem("town","shanj")
+           
