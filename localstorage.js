@@ -12,4 +12,11 @@
 //to convert any object or element in string format use function --->  JSON.stringyfy
                        //used parse to convert any string in object
 
-// 
+//   4 main functions:--   
+                //       setItem()    --> save
+                //       getItem ()   --> fetch 
+                //      removeItem()  --> at time one element
+                //      clear()       --> delete (permanently)
+
+            //     localStorage.setItem("username","nikhil")
+            //     localStorage.setItem("userage",90)
