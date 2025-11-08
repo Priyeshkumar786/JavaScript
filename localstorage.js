@@ -29,4 +29,10 @@
 
             //   //getitems-------
 
-            
+            //     localStorage.getItem("state")
+            //     localStorage.getItem("state")
+
+            // //removeitem()----------
+            // localStorage.removeItem("city")
+
+           
