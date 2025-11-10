@@ -73,4 +73,4 @@
                                         //charat
 
 
-    let faculty = "by Qasim si
+   
