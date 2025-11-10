@@ -73,4 +73,7 @@
                                         //charat
 
 
+    let faculty = "by Qasim sir"
+    let st ="this is \n js class" + " " + faculty
+
    
