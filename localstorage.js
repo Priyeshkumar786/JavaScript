@@ -10,7 +10,7 @@
 // -----------------------------imp funtions used------------------------
 
 //to convert any object or element in string format use function --->  JSON.stringyfy
-                       //used parse to convert any string in object
+//used parse to convert any string in object
 
 //   4 main functions:--   
                 //       setItem()    --> save
@@ -50,7 +50,27 @@
     //    console.log(vl.name);
        
 
-       let per1 ={
-        name:"raj",age:45,city:"bhopal"
-       }
-       localStorage.setItem("userdata".Json)
+    //    let per1 ={
+    //     name:"raj",age:45,city:"bhopal"
+    //    }
+    //    localStorage.setItem("userdata".Json)
+
+    // ---------------------------------------------------------------------------
+
+// let name = "ritik singh"
+// let city= "BHOPAL"
+// // console.log(name[4])             //for finding index value in string
+// let newname= name.toUpperCase()
+// console.log(newname)
+
+// console.log(city.toLowerCase());   // 
+
+// let name1 = " Ritik Singh  "
+// console.log(name1.trim());              // it trims the spaces
+//                                         // match and include are also similar functions
+                                        // trimstart  trims the spaces before the words
+                                        // trimend()
+                                        //charat
+
+
+    let faculty = "by Qasim si
