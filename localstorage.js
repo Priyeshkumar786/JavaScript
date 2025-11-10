@@ -79,4 +79,20 @@
     // template literals
 
     let st1=`THIS IS SJAVSCRIPT 
-    
+    class ${faculty}`
+
+    console.log(st1)
+
+    //API 
+
+
+
+    //fetch(url,{method})             // fetch is used to call any url or API
+
+    //http can be get 
+
+    // methods = get,post,delete,put,patch 
+
+              //access,insert,del,update
+
+              //many more function are to be used of string
