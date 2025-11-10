@@ -76,4 +76,7 @@
     let faculty = "by Qasim sir"
     let st ="this is \n js class" + " " + faculty
 
-   
+    // template literals
+
+    let st1=`THIS IS SJAVSCRIPT 
+    
