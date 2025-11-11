@@ -99,3 +99,5 @@
               //more question for practice h.w
               //ther are several more functions are there
 
+//back tick se use hota templlate literals
+
