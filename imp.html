@@ -1,28 +1,23 @@
+<!-- ===================type of operator===================== -->
 
- <form action="" onsubmit="return validate()">
-    <label for="">name</label>
-    <input type="text" id="name">
+var a;
+typeof a;				// "undefined"
 
-    <label for="">city</label>
-    <input type="text" id="city">
+a = "hello world";
+typeof a;				// "string"
 
-    <label for="">age</label>
-    <input type="text" id="age">
+a = 42;
+typeof a;				// "number"
 
-    <label for="">salary</label>
-    <input type="text" id="salary">
+a = true;
+typeof a;				// "boolean"
 
-    <label for="">sub</label>
-    <input type="text" id="sub">
+a = null;
+typeof a;				// "object" -- weird, bug
 
-     <label for="">contact</label>
-    <input type="text" id="contact">
+a = undefined;
+typeof a;				// "undefined"
 
-    <label for="">email</label>
-    <input type="text" id="email">
-
-    <label for="">password</label>
-    <input type="text" id="pass">
-
-    <label for="">confirm password</label>
-    <input type="text" id="cpass">
+a = { b: "c" };
+typeof a;				// "object"
+ 
