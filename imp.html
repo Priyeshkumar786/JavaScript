@@ -1,16 +1,28 @@
 
-import React, { useState } from 'react';
+ <form action="" onsubmit="return validate()">
+    <label for="">name</label>
+    <input type="text" id="name">
 
-function ToggleButton() {
-  const [isOn, setIsOn] = useState(false);
+    <label for="">city</label>
+    <input type="text" id="city">
 
-  return (
-    <div>
-      <button onClick={() => setIsOn(!isOn)}>
-        {isOn ? 'ON' : 'OFF'}
-      </button>
-    </div>
-  );
-}
+    <label for="">age</label>
+    <input type="text" id="age">
 
-export default ToggleButton;
+    <label for="">salary</label>
+    <input type="text" id="salary">
+
+    <label for="">sub</label>
+    <input type="text" id="sub">
+
+     <label for="">contact</label>
+    <input type="text" id="contact">
+
+    <label for="">email</label>
+    <input type="text" id="email">
+
+    <label for="">password</label>
+    <input type="text" id="pass">
+
+    <label for="">confirm password</label>
+    <input type="text" id="cpass">
