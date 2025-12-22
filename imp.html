@@ -151,3 +151,30 @@ function App() {
     </div>
   );
 }
+
+
+import { useState, useEffect } from 'react';
+
+function useFetch(url) {
+  const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetch(url)
+      .then(res => res.json())
+      .then(data => {
+        setData(data);
+        setLoading(false);
+      });
+  }, [url]);
+
+  return { data, loading };
+}
+
+// Usage in a component
+function App() {
+  const { data, loading } = useFetch('https://api.example.com/data');
+
+  if (loading) return <p>Loading...</p>;
+  return <div>{JSON.stringify(data)}</div>;
+}
