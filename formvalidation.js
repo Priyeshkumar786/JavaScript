@@ -44,3 +44,8 @@
 
 // form validation is the process of checking 
 // whether the information a user submits through a web form is accurate 
+
+
+
+//function of increment , decrement and reset
+// var a = 0
