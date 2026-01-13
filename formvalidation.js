@@ -31,3 +31,12 @@
 // var a = 0
 
 
+// document.querySelector('#reset').addEventListener('click',function(){
+//     document.querySelector("#counter").innerHTML = a=0
+// })
+
+
+//function of increment , decrement and reset
+// var a = 0
+
+
