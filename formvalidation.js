@@ -40,3 +40,7 @@
 // var a = 0
 
 
+//formvalidation to be started--:
+
+// form validation is the process of checking 
+// whether the information a user submits through a web form is accurate 
