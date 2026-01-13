@@ -8,3 +8,11 @@
 // and meets specific criteria
 // and meets specific criteria
 // and meets specific criteria
+
+
+
+// document.querySelector('#reset').addEventListener('click',function(){
+//     document.querySelector("#counter").innerHTML = a=0
+// })
+
+
