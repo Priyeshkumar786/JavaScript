@@ -50,4 +50,5 @@ const promise3 = fetch('https://api.example.com/data/3');
 Promise.all([promise1, promise2, promise3])
   .then((responses) => {
     // Executes only when all promises are resolved.
-
+    console.log('All responses:', responses);
+  })
