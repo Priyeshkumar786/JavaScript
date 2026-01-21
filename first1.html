@@ -52,3 +52,10 @@ Promise.all([promise1, promise2, promise3])
     // Executes only when all promises are resolved.
     console.log('All responses:', responses);
   })
+  .catch((error) => {
+    // Catches any error from any promise.
+    console.error('Error:', error);
+  });
+
+
+// num1 = parseInt(prompt("enter no 1"))
