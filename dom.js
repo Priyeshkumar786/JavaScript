@@ -470,3 +470,8 @@
 //     let e = document.getElementById('h5')
 //     e.style.backgroundColor='blue'
 //     e.style.color='grey'
+
+// function snap(){
+//     let e = document.getElementById('h5')
+//     e.style.backgroundColor='blue'
+//     e.style.color='grey'
