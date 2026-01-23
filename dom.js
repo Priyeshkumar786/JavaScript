@@ -462,3 +462,11 @@
 // three.style.backgroundColor="blue"
 // three.style.padding="5px"
 // three.style.textAlign="center"
+
+// ------------------------
+
+
+// function twit(){
+//     let e = document.getElementById('h5')
+//     e.style.backgroundColor='blue'
+//     e.style.color='grey'
