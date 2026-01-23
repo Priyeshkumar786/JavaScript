@@ -456,3 +456,6 @@
 // <button> should be targeted in js
 // addeventlistener( , )
 //     it have two paramenters (event,funtion)
+
+
+// let three= document.getElementById('button')
