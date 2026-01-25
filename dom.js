@@ -476,7 +476,7 @@
 //     e.style.backgroundColor='blue'
 //     e.style.color='grey'
 
-
+// type of operators
 // var a;
 // typeof a;				// "undefined"
 
