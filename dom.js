@@ -514,3 +514,9 @@
 // typeof arr;		// "object"
 
 // ---------------------------------------------------
+
+var obj = {
+	a: "hello world", // property
+	b: 42,
+	c: true
+};
