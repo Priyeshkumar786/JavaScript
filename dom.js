@@ -574,3 +574,10 @@ isNaN("")                    // false  ("" → 0)
 
 Number.isNaN(0/0)            // true   (is NaN)
 isNaN(0/0)                   // true
+
+// ---------------------------------------------
+
+let gfg= 10, GFG = 5,
+Geeks =
+gfg + GFG;
+console.log(Geeks)
