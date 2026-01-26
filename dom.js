@@ -559,3 +559,18 @@ var y = 10;
 const arr = [1, 2, 3];
 arr[10] = 99;
 console.log(arr.length);
+
+// -------------------------------
+
+Number.isNaN(NaN)             // true
+Number.isNaN("foo")           // false  (string, not NaN)
+isNaN("foo")                 // true   (coerces "foo" → NaN)
+
+Number.isNaN(undefined)     // false
+isNaN(undefined)             // true   (undefined → NaN)
+
+Number.isNaN("")             // false
+isNaN("")                    // false  ("" → 0)
+
+Number.isNaN(0/0)            // true   (is NaN)
+isNaN(0/0)                   // true
