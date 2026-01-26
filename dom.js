@@ -581,3 +581,4 @@ let gfg= 10, GFG = 5,
 Geeks =
 gfg + GFG;
 console.log(Geeks)
+// -----------------------------------------
