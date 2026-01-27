@@ -71,3 +71,11 @@
     //Array.splice(3,0,"django")
 
     //practice questions for array methods pop push unshift shift slice splice
+
+//for(let even of arr){
+
+    //     if (even%2==0){
+    //         console.log(even*even)
+
+    //     }
+    // }
