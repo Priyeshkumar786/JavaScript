@@ -102,3 +102,11 @@
 
     //     }
     // }
+
+//for(let even of arr){
+
+    //     if (even%2==0){
+    //         console.log(even*even)
+
+    //     }
+    // }
